@@ -61,7 +61,7 @@ export function temperature() {
 }
 ```
 
-* Place all your code under a namespace to avoid name collisions. Name collisions are avoided this way if a similar API name is in a different namespace. So, ``myNamespace.myFunction()`` and ``otherNampespace.myFunction()`` are both unique. Enums can be left in the global namespace with a proper prefix in the name to keep them unique.
+* Place all your code under a namespace to avoid name collisions. Name collisions are avoided this way if a similar API name is in a different namespace. So, ``myNamespace.myFunction()`` and ``otherNamespace.myFunction()`` are both unique. Enums can be left in the global namespace with a proper prefix in the name to keep them unique.
 
 ```typescript
 export enum UniquePrefixMyEnum {
